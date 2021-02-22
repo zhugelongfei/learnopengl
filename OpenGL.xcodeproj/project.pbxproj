@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A53392A32580E5F900B1BD1D /* Res in Resources */ = {isa = PBXBuildFile; fileRef = A53392A22580E5F900B1BD1D /* Res */; };
-		A53392A62580E60600B1BD1D /* Res in Resources */ = {isa = PBXBuildFile; fileRef = A53392A52580E60600B1BD1D /* Res */; };
 		A552C4D4256D0A65002B1E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A552C4D3256D0A65002B1E8B /* Assets.xcassets */; };
 		A552C4D7256D0A65002B1E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A552C4D6256D0A65002B1E8B /* Preview Assets.xcassets */; };
 		A552C4E4256D0DFC002B1E8B /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A552C4E3256D0DFC002B1E8B /* libGLEW.2.2.0.dylib */; };
@@ -263,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					A552C4CB256D0A63002B1E8B = {
 						CreatedOnToolsVersion = 12.2;
@@ -294,7 +293,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A53392A32580E5F900B1BD1D /* Res in Resources */,
-				A53392A62580E60600B1BD1D /* Res in Resources */,
 				A552C4D7256D0A65002B1E8B /* Preview Assets.xcassets in Resources */,
 				A552C4D4256D0A65002B1E8B /* Assets.xcassets in Resources */,
 			);
@@ -449,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenGL/Preview Content\"";
@@ -470,7 +469,7 @@
 					/usr/local/Cellar/glfw/3.3.2/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lonefee.OpenGL;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonfee.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -482,6 +481,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenGL/Preview Content\"";
@@ -503,7 +503,7 @@
 					/usr/local/Cellar/glfw/3.3.2/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.lonefee.OpenGL;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonfee.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
