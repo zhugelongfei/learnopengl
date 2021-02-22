@@ -1,2 +1,2 @@
-# learopengl
-lear opengl
+# learnopengl
+learn opengl
